@@ -88,3 +88,6 @@ with pestana2:
 pestana3.write("Esta pestaña es para tu reto si es el 3, el 4 o el 5.")
 
 # >>> RETO 3, 4 y 5: si tu reto es el 3, el 4 o el 5, pega aquí el bloque de tu reto (solo uno)
+pestana3.subheader("¿Qué tan frescos son los datos?")
+pestana3.write("Datos capturados hasta: " + str(anuncios["fecha_captura"].max()))
+pestana3.caption("La página guarda los archivos en memoria 10 minutos (ttl=600). Por eso un dato nuevo del robot puede tardar en verse.")
